@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="#d4d4d4"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC107"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/statename_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of State"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="139dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp">
+            <ImageView
+                android:id="@+id/flag_text"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/partylogo"/>
+            <TextView
+                android:id="@+id/rullingparty_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Winning Party Name"
+                android:textSize="20sp"
+                android:fontFamily="@font/nunito_bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="130dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CM:"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nunito_semibold"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/cmname_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CM Name"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:textColor="#700"
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

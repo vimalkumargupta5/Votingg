@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Feedback"
+    android:background="@drawable/newbackgroundtemplate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nunito_bold"
+                android:text="FEEDBACK FORM"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="This Feedback Form Will Let Us Know The Users View Of Using This Application.You Can Also Write Us For Any Other Feature.."
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/user1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="22dp"
+                />
+
+            <EditText
+                android:id="@+id/sendername"
+                android:layout_width="309dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circlebackground"
+                android:gravity="center"
+                android:hint="Your Name Please!" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/envelop1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="22dp"
+                />
+
+            <EditText
+                android:id="@+id/sendermail"
+                android:layout_width="309dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circlebackground"
+                android:gravity="center"
+                android:hint="Your Email Please!"
+                android:inputType="textEmailAddress"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/mobile1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="22dp"
+                />
+
+            <EditText
+                android:id="@+id/sendercontact"
+                android:layout_width="309dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circlebackground"
+                android:gravity="center"
+                android:inputType="phone"
+                android:hint="Your Mobile Number Please!" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <EditText
+               android:id="@+id/sendermessage"
+               android:layout_width="350dp"
+               android:layout_height="200dp"
+               android:background="@drawable/circlebackground"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="22dp"
+               />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:numStars="5"
+                android:stepSize="1.0"
+                android:rating="2.0"
+
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/sendtous"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Send To Us"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_back"/>
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            style="@style/SpinKitView.FoldingCube"
+            android:id="@+id/progressbar"
+            app:SpinKit_Color="#3fe0d0"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

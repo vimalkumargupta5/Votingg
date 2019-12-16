@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewRegistrationVerification"
+    android:orientation="vertical"
+    android:background="@drawable/newbackgroundtemplate">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify to proceed for voter registration. "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/pnone_number"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circlebackground"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="40dp"
+            android:hint="+918888888888"
+            android:inputType="phone"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Please start mobile no. with +91__________"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/send_otp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_back"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="Send OTP"/>
+        <EditText
+            android:id="@+id/enter_pin"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circlebackground"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Verification Code!"
+            android:inputType="number"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/verfy_otp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_back"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="Verify OTP"/>
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            style="@style/SpinKitView.FoldingCube"
+            android:id="@+id/progressbar"
+            app:SpinKit_Color="#3fe0d0"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

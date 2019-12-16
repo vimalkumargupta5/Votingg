@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="?attr/backgroundcolor">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profileicon"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_complaint"
+            android:icon="@drawable/complainticon"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedbackicon"
+            android:title="Feedback" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_assistance"
+                android:icon="@drawable/helpicon"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/faq"
+                android:title="FAQs" />
+            <item
+                android:id="@+id/nav_tc"
+                android:icon="@drawable/tc"
+                android:title="Terms and Conditions" />
+        </menu>
+    </item>
+
+</menu>

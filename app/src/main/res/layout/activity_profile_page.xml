@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile_page"
+    android:background="@drawable/lgnbck">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:civ_border_width="3dp"
+                app:civ_border_color="#254"
+                android:src="@drawable/boy"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Click on Profile Icon to choose Image."/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:background="@drawable/newcirclebackground"
+            android:layout_gravity="center"
+            android:hint="Your Name"
+            android:maxLines="1"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_lgn"
+                android:text="Update"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+            <com.github.ybq.android.spinkit.SpinKitView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                style="@style/SpinKitView.FoldingCube"
+                android:id="@+id/progressbar"
+                app:SpinKit_Color="#3fe0d0"
+                android:layout_margin="5dp"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

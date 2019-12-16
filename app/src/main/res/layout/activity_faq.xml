@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Faq">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequently Asked Questions "
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:paddingTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="1:What is Votingg? "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans:Votingg is an online voting platform which enables the users to cast his/her vote online. "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2:Features of Votingg Application?"
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans:There are many features available on Votingg Applications:
+                1- News Services
+2- User Registration 3- Map service for nearest polling booth 4- Result    5- Name Search 6- Complaint and Feedback 7- Result Analysis 8- Notice Board 9- Candidate Profile. "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3:Who is eligible to be registered as a general elector?  "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans:Every Indian citizen who has attained the age of 18 years on the qualifying date i.e. first day of January of the year of revision of electoral roll, unless otherwise disqualified, is eligible to be registered as a voter in the roll of the part/polling area of the constituency where he is ordinarily resident.  "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4: What is the relevant date for determining the age of 18 years? Can I get myself registered as a voter on the day when I have completed 18 years of age?  "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans:According to Section 14 (b) of the Representation of People Act, 1950 the relevant date (qualifying date) for determining the age of an applicant is the first day of January of the year in which the electoral roll after revision is finally published. For example, if you have completed or are completing 18 years of age on any date from and after 2nd January 2013 but upto to 1st January 2014, you will be eligible for registration as a voter in the elector roll going to be finally published in January, 2014.  "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:Can a non-resident Indian settled in foreign land become an elector of electoral roll in India?  "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans:Yes. According to the provisions of Sec 20A of the Representation of People Act, 1950 by the Representation of the People (Amendment) Act, 2010, a person who is a citizen of India and who has not acquired the citizenship of any other country and is otherwise eligible to be registered as a voter and who is absenting from his place of ordinary residence in India owing to his employment, education or otherwise is eligible to be registered as a voter in the constituency in which his place of residence in India as mentioned in his passport is located. "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6: Is a documentary proof of age required in cases where age of the applicant is more than 21 years?  "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans:Documentary proof of age is required only in those cases, where age of the applicant is between 18 and 21 years. In all other cases, declaration of his age by the applicant will be taken as proof of age.  "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:A homeless person, who is otherwise eligible for registration as an elector, does not possess documentary proof of ordinary residence. What is the procedure of verification in such case?  "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans: In case of homeless persons, the Booth Level Officer will visit the address given in Form 6 at night to ascertain that the homeless person actually sleeps at the place which is given as his address. If the Booth Level Officer is able to verify that the homeless person actually sleeps at that place, no documentary proof of place of residence shall be necessary. Booth Level Officer must visit for more than one night for such verification.  "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8:Where can the list of claims and objections be seen?  "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans: It can be seen on the website of the Chief Electoral Officer of the State concerned. It also can be seen on the notice board at the office of the Electoral Registration Officer.  "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9:  How will an applicant know that his/her name is included in the electoral roll? "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans:He or She can search the name in the Name Search box by typing the unique Id number which is provided during the registration process. "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10: I have shifted from my residence where I am registered an elector to some other place. How do I ensure that I am enrolled in my new place of residence?  "
+                android:textColor="#000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans:No problem it does not matter where you live just go to the nearest polling booth centre provide your identification get yourself verified and cast the vote online. "
+                android:textColor="#0000ff"
+                android:fontFamily="sans-serif"/>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

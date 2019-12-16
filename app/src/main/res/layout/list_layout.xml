@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="390dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/idtemplate">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/candidateqr"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/votinggapp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan QR Code for more detail."
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_img"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/profileicon"
+                app:civ_border_width="3dp"
+                app:civ_border_color="#b43757"
+                android:layout_margin="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="29dp"
+                    android:background="@drawable/ribbon">
+                <TextView
+                    android:id="@+id/candidateuid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VUID2019-0019"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+            <TextView
+                android:id="@+id/age_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="22"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:fontFamily="@font/nunito_semibold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Years"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/designationicon"
+                    android:layout_marginLeft="3dp"/>
+                <TextView
+                    android:id="@+id/place_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Designation"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:textColor="#000000"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/abouticon"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="3dp"/>
+                <TextView
+                    android:id="@+id/status_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"
+                    android:text="A leader is the one in the charge, the person who convinces other people to follow. A great leader inspires confidence in other people."/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="70dp">
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Candidate Name"
+                android:textSize="20sp"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/party_nametext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of Political Party"
+                android:textColor="#F71100"
+                android:fontFamily="@font/nunito_semibold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/party_logo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:civ_border_width="3dp"
+                app:civ_border_color="#b43757"
+                android:src="@drawable/partylogo"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
